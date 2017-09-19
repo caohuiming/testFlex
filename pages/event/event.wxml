@@ -1,0 +1,7 @@
+<!--pages/event/event.wxml-->
+<text>pages/event/event.wxml</text>
+<view> {{msg}}</view>
+<view class='container'>
+  <view class='view-item' id='btnTest0' data-hi='hi0' data-qf='qf0' data-chm='chm0' bindtap='tapClick'> Test0</view>
+  <view class='view-item' id='btnTest1' data-hi='hi1'  data-qf='qf1' data-chm='chm1' bindtap='tapClick'> Test1</view>
+</view>

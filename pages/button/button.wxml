@@ -1,0 +1,14 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+<view class='container'>
+  <button size='default'>size:default</button>
+   <button size='mini'>size:mini</button>
+   <button size='default' type='primary' >type:primary</button>
+   <button size='default' type='default' >type:default</button>
+   <button size='default' type='warn'>type:warn</button>
+  <button size='default' type='warn' plain='true'>type:warn,plain:true</button>
+  <button size='default' type='primary' disabled='true' >type:primary,disabled:true</button>
+  <button size='default' type='primary' loading='true' bindtap='doLoading' >type:primary,loading:true</button>
+  <button size='default' type='primary' hover-class='btnHover'>type:primary,hover-class</button>
+</view>
+
