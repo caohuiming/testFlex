@@ -1,1 +1,18 @@
-/* pages/icon/icon.wxss */
+
+
+.body {
+    padding: 10px;
+}
+
+.view-section {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.text-item {
+    background-color: green;
+    font-size: 18px;
+    color : white;
+}

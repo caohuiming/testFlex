@@ -1,2 +1,19 @@
 <!--pages/icon/icon.wxml-->
 <text>pages/icon/icon.wxml</text>
+<view class='container'>
+  <view class='view-section'>
+    <icon type='success'></icon>
+    <icon type='success_no_circle' size='50'></icon>
+    <icon type='warn' color='red'></icon>
+    <icon type='waiting' color='99ffaa'></icon>
+    <icon type='cancel' color='yellow'></icon>
+    <icon type='download' color='blue'></icon>
+    <icon type='search' color='green'></icon>
+    <icon type='clear' color='fffff0'></icon>
+  </view>
+  <view class='view-section'>
+    <block wx:for='{{[10,20,30,40,50]}}'> 
+      <icon type='info' size='{{item}}'></icon>
+    </block>
+  </view>
+</view>
