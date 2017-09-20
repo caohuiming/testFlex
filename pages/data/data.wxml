@@ -1,0 +1,24 @@
+<!--pages/data/data.wxml-->
+<text>pages/data/data.wxml</text>
+<view>{{des}}</view>
+<view bindtap="changeValue">改变值</view>
+
+<view class='container'>
+  <view wx:for="{{array}}">{{item}}</view>
+  <view wx:for="{{arrayStr}}">{{item}}</view>
+  <view wx:if="{{index==1}}">1111</view>
+  <view wx:elif="{{index==2}}">2222</view>
+  <view wx:else="{{index==3}}">3333</view>
+
+  <!--定义一个模板-->
+  <template name="people"> 
+      <view>
+        姓名{{name}} 年龄{{age}}
+      </view>
+   </template>
+   <!--使用模板-->
+   <template is="people" data="{{...chm}}"></template>
+   <template is="people" data="{{...wt}}"></template>
+
+   
+</view>

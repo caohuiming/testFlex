@@ -5,7 +5,9 @@
     "pages/flex/flex",
     "pages/event/event",
     "pages/button/button",
-    "pages/icon/icon"
+    "pages/icon/icon",
+    "pages/image/image",
+    "pages/data/data"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -44,10 +46,10 @@
         "text": "button"
       },
       {
-        "pagePath": "pages/icon/icon",
+        "pagePath": "pages/data/data",
         "iconPath": "images/wechat.png",
         "selectedIconPath": "images/wechatHL.png",
-        "text": "icon"
+        "text": "data"
       }
     ]
   }
